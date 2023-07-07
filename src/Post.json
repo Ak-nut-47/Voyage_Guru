@@ -1,0 +1,1521 @@
+{
+  "data": {
+    "data": {
+      "AppPresentation_queryAppSearch": {
+        "__typename": "AppPresentation_QueryAppSearchResponse",
+        "container": {
+          "__typename": "AppPresentation_SearchResponseContainer",
+          "searchTitle": {
+            "__typename": "AppPresentation_LocalizedString",
+            "string": "\"chiang mai\"",
+            "debugValueKey": null
+          }
+        },
+        "sections": [
+          {
+            "__typename": "AppPresentation_ListTitle",
+            "listTitle": {
+              "__typename": "AppPresentation_LocalizedString",
+              "string": "Top results",
+              "debugValueKey": null
+            },
+            "subTitle": null,
+            "trackingTitle": "ListTitleSection_SRP_RESOLVED_ITEMS_0",
+            "trackingKey": "{\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_0\",\"sn\":\"Search\"}",
+            "stableDiffingType": "ListTitleSection_SRP_RESOLVED_ITEMS_0",
+            "clusterId": "SRP_RESOLVED_ITEMS_0",
+            "tooltip": null,
+            "seeAll": null,
+            "label": null
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "GeoHorizontalStandardCard_GEO_293917_SRP_RESOLVED_ITEMS_0",
+            "trackingKey": "{\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_1\",\"ctt\":\"GEO\",\"lid\":293917,\"sn\":\"Search\"}",
+            "stableDiffingType": "GeoHorizontalStandardCard_GEO_293917_SRP_RESOLVED_ITEMS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_HorizontalStandardCard",
+              "badge": null,
+              "trackingKey": "{\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_1\",\"ctt\":\"GEO\",\"lid\":293917,\"sn\":\"Search\"}",
+              "trackingTitle": "GeoHorizontalStandardCard_GEO_293917",
+              "stableDiffingType": "GeoHorizontalStandardCard_GEO_293917",
+              "isSaved": false,
+              "saveId": {
+                "__typename": "Trips_ReferenceV2",
+                "id": "293917",
+                "type": "location"
+              },
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Chiang Mai",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai Province, Thailand"
+              },
+              "secondaryInfo": null,
+              "bubbleRating": null,
+              "distance": null,
+              "commerceButtons": null,
+              "labels": [],
+              "descriptiveText": null,
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppList",
+                  "url": "/AppList-g293917-a_contentType.geo.html",
+                  "nonCanonicalUrl": "/AppList-g293917-a_contentType.geo.html",
+                  "typedParams": {
+                    "__typename": "Routing_AppListParameters",
+                    "contentType": "geo",
+                    "geoId": 293917,
+                    "isCollectionView": null,
+                    "isList": null,
+                    "isMap": null,
+                    "isNearby": null,
+                    "nearLocationId": null,
+                    "nearLocationType": null,
+                    "pagee": null,
+                    "sort": null,
+                    "sortOrder": null,
+                    "routingFilters": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for Chiang Mai",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              },
+              "cardPhoto": {
+                "__typename": "AppPresentation_PhotoItem",
+                "sizes": {
+                  "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                  "maxHeight": 2143,
+                  "maxWidth": 3360,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f8/39/caption.jpg?w={width}&h={height}&s=1&cx=578&cy=1032&chk=v1_4d0b15e634de94650bec"
+                }
+              },
+              "closureInfo": null
+            },
+            "clusterId": "SRP_RESOLVED_ITEMS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "PoiHorizontalStandardCard_attraction_12971265_SRP_RESOLVED_ITEMS_0",
+            "trackingKey": "{\"br\":3.5,\"rc\":24,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_2\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":12971265,\"pir\":173,\"mid\":294390167,\"sn\":\"Search\"}",
+            "stableDiffingType": "PoiHorizontalStandardCard_attraction_12971265_SRP_RESOLVED_ITEMS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_HorizontalStandardCard",
+              "badge": null,
+              "trackingKey": "{\"br\":3.5,\"rc\":24,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_2\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":12971265,\"pir\":173,\"mid\":294390167,\"sn\":\"Search\"}",
+              "trackingTitle": "PoiHorizontalStandardCard_attraction_12971265",
+              "stableDiffingType": "PoiHorizontalStandardCard_attraction_12971265",
+              "isSaved": false,
+              "saveId": {
+                "__typename": "Trips_ReferenceV2",
+                "id": "12971265",
+                "type": "location"
+              },
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Chiang Mai University",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Universities & Schools"
+              },
+              "secondaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 3.5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "24",
+                  "debugValueKey": null
+                }
+              },
+              "distance": null,
+              "commerceButtons": null,
+              "labels": [],
+              "descriptiveText": null,
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=attraction&contentId=12971265",
+                  "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=12971265",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "12971265",
+                    "contentType": "attraction",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for Chiang Mai University",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              },
+              "cardPhoto": {
+                "__typename": "AppPresentation_PhotoItem",
+                "sizes": {
+                  "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                  "maxHeight": 2048,
+                  "maxWidth": 2048,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/8c/09/97/chiang-mai-university.jpg?w={width}&h={height}&s=1"
+                }
+              },
+              "closureInfo": null
+            },
+            "clusterId": "SRP_RESOLVED_ITEMS_0"
+          },
+          {
+            "__typename": "AppPresentation_SecondaryButton",
+            "clusterId": null,
+            "trackingKey": "{\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_3\",\"sn\":\"Search\"}",
+            "trackingTitle": "AddListingSection",
+            "stableDiffingType": "AddListingSection",
+            "link": {
+              "__typename": "AppPresentation_InternalLink",
+              "route": {
+                "__typename": "Routing_Route",
+                "fragment": null,
+                "page": "CreateListing",
+                "url": "/CreateListing.html",
+                "nonCanonicalUrl": "/CreateListing.html",
+                "typedParams": {
+                  "__typename": "Routing_CreateListingParameters"
+                }
+              },
+              "webviewRoute": null,
+              "text": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Add a missing place",
+                "debugValueKey": null
+              },
+              "accessibilityString": null,
+              "trackingContext": "server_addAMissingPlace_srp"
+            },
+            "icon": "add-place"
+          },
+          {
+            "__typename": "AppPresentation_ListTitle",
+            "listTitle": {
+              "__typename": "AppPresentation_LocalizedString",
+              "string": "More results",
+              "debugValueKey": null
+            },
+            "subTitle": null,
+            "trackingTitle": "SearchMoreResultsTitleSection",
+            "trackingKey": "{\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_4\",\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsTitleSection",
+            "clusterId": null,
+            "tooltip": null,
+            "seeAll": null,
+            "label": null
+          },
+          {
+            "__typename": "AppPresentation_ChipCardCarousel",
+            "chipCardCarouselTitle": null,
+            "chipCardCarouselText": null,
+            "trackingKey": "{\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_5\",\"sn\":\"Search\"}",
+            "trackingTitle": "ChipCardCarouselSection_SRP_MORE_RESULTS_FILTERS",
+            "clusterId": "SRP_MORE_RESULTS_FILTERS",
+            "stableDiffingType": "ChipCardCarouselSection_SRP_MORE_RESULTS_FILTERS",
+            "chipContent": [
+              {
+                "__typename": "AppPresentation_FilterChipCard",
+                "trackingKey": "{\"cfid\":\"HOTELS\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_5_0\",\"ctt\":\"FILTER\",\"sn\":\"Search\"}",
+                "trackingTitle": "FilterChipCard_HOTELS",
+                "stableDiffingType": "FilterChipCard_HOTELS",
+                "icon": null,
+                "selected": false,
+                "title": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Hotels",
+                  "debugValueKey": null
+                },
+                "bubbleRating": null,
+                "updateLink": {
+                  "__typename": "AppPresentation_UpdateLink",
+                  "text": null,
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "nonCanonicalUrl": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "typedParams": {
+                      "__typename": "Routing_AppSearchParameters",
+                      "routingFilters": null,
+                      "force": false,
+                      "geoId": null,
+                      "query": "chiang mai",
+                      "referringViewUrl": null
+                    }
+                  },
+                  "routeKey": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": null,
+                    "nonCanonicalUrl": null,
+                    "typedParams": null
+                  },
+                  "autoLoad": false,
+                  "updateToken": "eyJ2ZXIiOiJ2MiIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2IiwidmVyc2lvbiI6IjEifQ.eyJvYmplY3QiOiJ7XCJAY1wiOlwiLlVwZGF0ZVRva2VuXCIsXCJ0eXBlXCI6XCJGSUxURVJJTkdcIixcImNsdXN0ZXJJZHNcIjpbXCJTUlBfTU9SRV9SRVNVTFRTXzFcIixcIlNSUF9NT1JFX1JFU1VMVFNfMFwiLFwiU1JQX01PUkVfUkVTVUxUU19GSUxURVJTXCJdLFwicHJvdmlkZXJVcGRhdGVUb2tlbnNcIjp7XCJTUlBfU0VBUkNIX0ZJTFRFUlwiOntcIkBjXCI6XCJjb20udHJpcGFkdmlzb3Iuc2VydmljZS5hcHMuYWRhcHRlcnMuc2VhcmNoLlNlYXJjaEZpbHRlclVwZGF0ZVRva2VuXCIsXCJmaWx0ZXJJZFwiOlwiSE9URUxTXCIsXCJkYXRhVHlwZXNcIjpbXCJMT0NBVElPTlwiXSxcImxvY2F0aW9uVHlwZXNcIjpbXCJBQ0NPTU1PREFUSU9OXCJdLFwicmVxdWVzdFwiOntcInF1ZXJ5XCI6XCJjaGlhbmcgbWFpXCIsXCJsb2NhbGVcIjpcImVuX1VTXCIsXCJsaW1pdFwiOjEwLFwiZmlsdGVyc1wiOntcImRhdGFUeXBlc1wiOltcIkxPQ0FUSU9OXCJdLFwibG9jYXRpb25UeXBlc1wiOltcIkdFT1wiLFwiQUNDT01NT0RBVElPTlwiLFwiQVRUUkFDVElPTlwiLFwiQVRUUkFDVElPTl9QUk9EVUNUXCIsXCJFQVRFUllcIl19LFwiYWRkaXRpb25hbEZpZWxkc1wiOltcIlNOSVBQRVRcIl0sXCJvZmZzZXRcIjowLFwic2NvcGVcIjp7XCJsb2NhdGlvbklkXCI6bnVsbCxcImNlbnRlclwiOm51bGx9LFwibG9jYXRpb25JZHNUb0V4Y2x1ZGVcIjpbMjkzOTE3LDEyOTcxMjY1XSxcImNhdGVnb3J5RmlsdGVySWRzXCI6W1wiSE9URUxTXCIsXCJBVFRSQUNUSU9OU1wiLFwiREVTVElOQVRJT05TXCIsXCJSRVNUQVVSQU5UU1wiLFwiQUNUSVZJVElFU1wiLFwiRk9SVU1TXCJdfSxcImlzU2VsZWN0ZWRGaWx0ZXJcIjp0cnVlLFwic2VhcmNoU2Vzc2lvbklkXCI6XCI0NjRjYTFiMS03ZGQyLTQ5MGEtOWU4Ny00ZmJiYmE2OTgyYjRcIixcInNlYXJjaFJlZmluZW1lbnRJZFwiOlwiNzQ1N2IyMWMtM2MwNy00YjE2LWI4YzgtYzYxNjhlMjhlMTExXCJ9fSxcInBvbGxpbmdTZXF1ZW5jZU51bVwiOjB9In0.ZmVhY2QxZTctNzBjNS00ZmU4LTllNDItNGZlNDZlNTIwZDY5Lk1FVUNJUURaMW43aU5DLXRCZGdnUG5kODJNdWFzWVVmMC0yaTlEdDAyVUJ2eVl3MHdRSWdabHZITXRCdEp1bG9RbVRuMVM2QTI5ZTZsLUdiZDdReVA1Sk5kUHp2VXZR",
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View more items in this list",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_update"
+                }
+              },
+              {
+                "__typename": "AppPresentation_FilterChipCard",
+                "trackingKey": "{\"cfid\":\"ATTRACTIONS\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_5_1\",\"ctt\":\"FILTER\",\"sn\":\"Search\"}",
+                "trackingTitle": "FilterChipCard_ATTRACTIONS",
+                "stableDiffingType": "FilterChipCard_ATTRACTIONS",
+                "icon": null,
+                "selected": false,
+                "title": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Attractions",
+                  "debugValueKey": null
+                },
+                "bubbleRating": null,
+                "updateLink": {
+                  "__typename": "AppPresentation_UpdateLink",
+                  "text": null,
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "nonCanonicalUrl": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "typedParams": {
+                      "__typename": "Routing_AppSearchParameters",
+                      "routingFilters": null,
+                      "force": false,
+                      "geoId": null,
+                      "query": "chiang mai",
+                      "referringViewUrl": null
+                    }
+                  },
+                  "routeKey": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": null,
+                    "nonCanonicalUrl": null,
+                    "typedParams": null
+                  },
+                  "autoLoad": false,
+                  "updateToken": "eyJ2ZXIiOiJ2MiIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2IiwidmVyc2lvbiI6IjEifQ.eyJvYmplY3QiOiJ7XCJAY1wiOlwiLlVwZGF0ZVRva2VuXCIsXCJ0eXBlXCI6XCJGSUxURVJJTkdcIixcImNsdXN0ZXJJZHNcIjpbXCJTUlBfTU9SRV9SRVNVTFRTXzFcIixcIlNSUF9NT1JFX1JFU1VMVFNfMFwiLFwiU1JQX01PUkVfUkVTVUxUU19GSUxURVJTXCJdLFwicHJvdmlkZXJVcGRhdGVUb2tlbnNcIjp7XCJTUlBfU0VBUkNIX0ZJTFRFUlwiOntcIkBjXCI6XCJjb20udHJpcGFkdmlzb3Iuc2VydmljZS5hcHMuYWRhcHRlcnMuc2VhcmNoLlNlYXJjaEZpbHRlclVwZGF0ZVRva2VuXCIsXCJmaWx0ZXJJZFwiOlwiQVRUUkFDVElPTlNcIixcImRhdGFUeXBlc1wiOltcIkxPQ0FUSU9OXCJdLFwibG9jYXRpb25UeXBlc1wiOltcIkFUVFJBQ1RJT05cIl0sXCJyZXF1ZXN0XCI6e1wicXVlcnlcIjpcImNoaWFuZyBtYWlcIixcImxvY2FsZVwiOlwiZW5fVVNcIixcImxpbWl0XCI6MTAsXCJmaWx0ZXJzXCI6e1wiZGF0YVR5cGVzXCI6W1wiTE9DQVRJT05cIl0sXCJsb2NhdGlvblR5cGVzXCI6W1wiR0VPXCIsXCJBQ0NPTU1PREFUSU9OXCIsXCJBVFRSQUNUSU9OXCIsXCJBVFRSQUNUSU9OX1BST0RVQ1RcIixcIkVBVEVSWVwiXX0sXCJhZGRpdGlvbmFsRmllbGRzXCI6W1wiU05JUFBFVFwiXSxcIm9mZnNldFwiOjAsXCJzY29wZVwiOntcImxvY2F0aW9uSWRcIjpudWxsLFwiY2VudGVyXCI6bnVsbH0sXCJsb2NhdGlvbklkc1RvRXhjbHVkZVwiOlsyOTM5MTcsMTI5NzEyNjVdLFwiY2F0ZWdvcnlGaWx0ZXJJZHNcIjpbXCJIT1RFTFNcIixcIkFUVFJBQ1RJT05TXCIsXCJERVNUSU5BVElPTlNcIixcIlJFU1RBVVJBTlRTXCIsXCJBQ1RJVklUSUVTXCIsXCJGT1JVTVNcIl19LFwiaXNTZWxlY3RlZEZpbHRlclwiOnRydWUsXCJzZWFyY2hTZXNzaW9uSWRcIjpcIjQ2NGNhMWIxLTdkZDItNDkwYS05ZTg3LTRmYmJiYTY5ODJiNFwiLFwic2VhcmNoUmVmaW5lbWVudElkXCI6XCI5ZGRmOTk3Mi04NjBlLTRiY2EtOWUzNy1iNzc3YmI1ODc3NDlcIn19LFwicG9sbGluZ1NlcXVlbmNlTnVtXCI6MH0ifQ.ZmVhY2QxZTctNzBjNS00ZmU4LTllNDItNGZlNDZlNTIwZDY5Lk1FVUNJUUQ0LUxkUHZMV2pZZkt5Y0UwSUhhdnZqN2VkbnlMRHc0eUFoTGlKdllwZEZnSWdCVWhuc3UxWHo4aGJRNnBGTWkteGYzdC1KRGk1OGRlQkgyLWxDcmo2U2FZ",
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View more items in this list",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_update"
+                }
+              },
+              {
+                "__typename": "AppPresentation_FilterChipCard",
+                "trackingKey": "{\"cfid\":\"DESTINATIONS\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_5_2\",\"ctt\":\"FILTER\",\"sn\":\"Search\"}",
+                "trackingTitle": "FilterChipCard_DESTINATIONS",
+                "stableDiffingType": "FilterChipCard_DESTINATIONS",
+                "icon": null,
+                "selected": false,
+                "title": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Destinations",
+                  "debugValueKey": null
+                },
+                "bubbleRating": null,
+                "updateLink": {
+                  "__typename": "AppPresentation_UpdateLink",
+                  "text": null,
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "nonCanonicalUrl": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "typedParams": {
+                      "__typename": "Routing_AppSearchParameters",
+                      "routingFilters": null,
+                      "force": false,
+                      "geoId": null,
+                      "query": "chiang mai",
+                      "referringViewUrl": null
+                    }
+                  },
+                  "routeKey": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": null,
+                    "nonCanonicalUrl": null,
+                    "typedParams": null
+                  },
+                  "autoLoad": false,
+                  "updateToken": "eyJ2ZXIiOiJ2MiIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2IiwidmVyc2lvbiI6IjEifQ.eyJvYmplY3QiOiJ7XCJAY1wiOlwiLlVwZGF0ZVRva2VuXCIsXCJ0eXBlXCI6XCJGSUxURVJJTkdcIixcImNsdXN0ZXJJZHNcIjpbXCJTUlBfTU9SRV9SRVNVTFRTXzFcIixcIlNSUF9NT1JFX1JFU1VMVFNfMFwiLFwiU1JQX01PUkVfUkVTVUxUU19GSUxURVJTXCJdLFwicHJvdmlkZXJVcGRhdGVUb2tlbnNcIjp7XCJTUlBfU0VBUkNIX0ZJTFRFUlwiOntcIkBjXCI6XCJjb20udHJpcGFkdmlzb3Iuc2VydmljZS5hcHMuYWRhcHRlcnMuc2VhcmNoLlNlYXJjaEZpbHRlclVwZGF0ZVRva2VuXCIsXCJmaWx0ZXJJZFwiOlwiREVTVElOQVRJT05TXCIsXCJkYXRhVHlwZXNcIjpbXCJMT0NBVElPTlwiXSxcImxvY2F0aW9uVHlwZXNcIjpbXCJHRU9cIl0sXCJyZXF1ZXN0XCI6e1wicXVlcnlcIjpcImNoaWFuZyBtYWlcIixcImxvY2FsZVwiOlwiZW5fVVNcIixcImxpbWl0XCI6MTAsXCJmaWx0ZXJzXCI6e1wiZGF0YVR5cGVzXCI6W1wiTE9DQVRJT05cIl0sXCJsb2NhdGlvblR5cGVzXCI6W1wiR0VPXCIsXCJBQ0NPTU1PREFUSU9OXCIsXCJBVFRSQUNUSU9OXCIsXCJBVFRSQUNUSU9OX1BST0RVQ1RcIixcIkVBVEVSWVwiXX0sXCJhZGRpdGlvbmFsRmllbGRzXCI6W1wiU05JUFBFVFwiXSxcIm9mZnNldFwiOjAsXCJzY29wZVwiOntcImxvY2F0aW9uSWRcIjpudWxsLFwiY2VudGVyXCI6bnVsbH0sXCJsb2NhdGlvbklkc1RvRXhjbHVkZVwiOlsyOTM5MTcsMTI5NzEyNjVdLFwiY2F0ZWdvcnlGaWx0ZXJJZHNcIjpbXCJIT1RFTFNcIixcIkFUVFJBQ1RJT05TXCIsXCJERVNUSU5BVElPTlNcIixcIlJFU1RBVVJBTlRTXCIsXCJBQ1RJVklUSUVTXCIsXCJGT1JVTVNcIl19LFwiaXNTZWxlY3RlZEZpbHRlclwiOnRydWUsXCJzZWFyY2hTZXNzaW9uSWRcIjpcIjQ2NGNhMWIxLTdkZDItNDkwYS05ZTg3LTRmYmJiYTY5ODJiNFwiLFwic2VhcmNoUmVmaW5lbWVudElkXCI6XCI2N2QzMDM4MC05MzI3LTRjMGUtYjVhMC1lY2ZhNjVlZTc4ODBcIn19LFwicG9sbGluZ1NlcXVlbmNlTnVtXCI6MH0ifQ.ZmVhY2QxZTctNzBjNS00ZmU4LTllNDItNGZlNDZlNTIwZDY5Lk1FVUNJUURmTV9HS0ZuQ2Uyd1RqcnBLOHZIMlhOTklaR3hKQzIydEk5UERXZDZoU1NRSWdiVzI5OHpBUkhkRjBMbVpHeklfUmVOcU1KOUxCNFVfMG5fbHh6STRBcUhN",
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View more items in this list",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_update"
+                }
+              },
+              {
+                "__typename": "AppPresentation_FilterChipCard",
+                "trackingKey": "{\"cfid\":\"RESTAURANTS\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_5_3\",\"ctt\":\"FILTER\",\"sn\":\"Search\"}",
+                "trackingTitle": "FilterChipCard_RESTAURANTS",
+                "stableDiffingType": "FilterChipCard_RESTAURANTS",
+                "icon": null,
+                "selected": false,
+                "title": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Restaurants",
+                  "debugValueKey": null
+                },
+                "bubbleRating": null,
+                "updateLink": {
+                  "__typename": "AppPresentation_UpdateLink",
+                  "text": null,
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "nonCanonicalUrl": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "typedParams": {
+                      "__typename": "Routing_AppSearchParameters",
+                      "routingFilters": null,
+                      "force": false,
+                      "geoId": null,
+                      "query": "chiang mai",
+                      "referringViewUrl": null
+                    }
+                  },
+                  "routeKey": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": null,
+                    "nonCanonicalUrl": null,
+                    "typedParams": null
+                  },
+                  "autoLoad": false,
+                  "updateToken": "eyJ2ZXIiOiJ2MiIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2IiwidmVyc2lvbiI6IjEifQ.eyJvYmplY3QiOiJ7XCJAY1wiOlwiLlVwZGF0ZVRva2VuXCIsXCJ0eXBlXCI6XCJGSUxURVJJTkdcIixcImNsdXN0ZXJJZHNcIjpbXCJTUlBfTU9SRV9SRVNVTFRTXzFcIixcIlNSUF9NT1JFX1JFU1VMVFNfMFwiLFwiU1JQX01PUkVfUkVTVUxUU19GSUxURVJTXCJdLFwicHJvdmlkZXJVcGRhdGVUb2tlbnNcIjp7XCJTUlBfU0VBUkNIX0ZJTFRFUlwiOntcIkBjXCI6XCJjb20udHJpcGFkdmlzb3Iuc2VydmljZS5hcHMuYWRhcHRlcnMuc2VhcmNoLlNlYXJjaEZpbHRlclVwZGF0ZVRva2VuXCIsXCJmaWx0ZXJJZFwiOlwiUkVTVEFVUkFOVFNcIixcImRhdGFUeXBlc1wiOltcIkxPQ0FUSU9OXCJdLFwibG9jYXRpb25UeXBlc1wiOltcIkVBVEVSWVwiXSxcInJlcXVlc3RcIjp7XCJxdWVyeVwiOlwiY2hpYW5nIG1haVwiLFwibG9jYWxlXCI6XCJlbl9VU1wiLFwibGltaXRcIjoxMCxcImZpbHRlcnNcIjp7XCJkYXRhVHlwZXNcIjpbXCJMT0NBVElPTlwiXSxcImxvY2F0aW9uVHlwZXNcIjpbXCJHRU9cIixcIkFDQ09NTU9EQVRJT05cIixcIkFUVFJBQ1RJT05cIixcIkFUVFJBQ1RJT05fUFJPRFVDVFwiLFwiRUFURVJZXCJdfSxcImFkZGl0aW9uYWxGaWVsZHNcIjpbXCJTTklQUEVUXCJdLFwib2Zmc2V0XCI6MCxcInNjb3BlXCI6e1wibG9jYXRpb25JZFwiOm51bGwsXCJjZW50ZXJcIjpudWxsfSxcImxvY2F0aW9uSWRzVG9FeGNsdWRlXCI6WzI5MzkxNywxMjk3MTI2NV0sXCJjYXRlZ29yeUZpbHRlcklkc1wiOltcIkhPVEVMU1wiLFwiQVRUUkFDVElPTlNcIixcIkRFU1RJTkFUSU9OU1wiLFwiUkVTVEFVUkFOVFNcIixcIkFDVElWSVRJRVNcIixcIkZPUlVNU1wiXX0sXCJpc1NlbGVjdGVkRmlsdGVyXCI6dHJ1ZSxcInNlYXJjaFNlc3Npb25JZFwiOlwiNDY0Y2ExYjEtN2RkMi00OTBhLTllODctNGZiYmJhNjk4MmI0XCIsXCJzZWFyY2hSZWZpbmVtZW50SWRcIjpcIjllZmJhYzZmLWYxZGUtNDYyMi04Y2FlLWFlY2JlY2YzMTIyOFwifX0sXCJwb2xsaW5nU2VxdWVuY2VOdW1cIjowfSJ9.ZmVhY2QxZTctNzBjNS00ZmU4LTllNDItNGZlNDZlNTIwZDY5Lk1FWUNJUUN1TVh4NmVBYXlJYzVGNnNvaThDWTVkeGlqWXd5OHFKbUVuUmFLdF9wQWVBSWhBSXFlUFpfNDdtZ1lYMzRObFM3RzQycDFUb2x4d2JhNUU2SzY5STJYVGVrOA",
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View more items in this list",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_update"
+                }
+              },
+              {
+                "__typename": "AppPresentation_FilterChipCard",
+                "trackingKey": "{\"cfid\":\"ACTIVITIES\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_5_4\",\"ctt\":\"FILTER\",\"sn\":\"Search\"}",
+                "trackingTitle": "FilterChipCard_ACTIVITIES",
+                "stableDiffingType": "FilterChipCard_ACTIVITIES",
+                "icon": null,
+                "selected": false,
+                "title": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Activities",
+                  "debugValueKey": null
+                },
+                "bubbleRating": null,
+                "updateLink": {
+                  "__typename": "AppPresentation_UpdateLink",
+                  "text": null,
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "nonCanonicalUrl": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "typedParams": {
+                      "__typename": "Routing_AppSearchParameters",
+                      "routingFilters": null,
+                      "force": false,
+                      "geoId": null,
+                      "query": "chiang mai",
+                      "referringViewUrl": null
+                    }
+                  },
+                  "routeKey": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": null,
+                    "nonCanonicalUrl": null,
+                    "typedParams": null
+                  },
+                  "autoLoad": false,
+                  "updateToken": "eyJ2ZXIiOiJ2MiIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2IiwidmVyc2lvbiI6IjEifQ.eyJvYmplY3QiOiJ7XCJAY1wiOlwiLlVwZGF0ZVRva2VuXCIsXCJ0eXBlXCI6XCJGSUxURVJJTkdcIixcImNsdXN0ZXJJZHNcIjpbXCJTUlBfTU9SRV9SRVNVTFRTXzFcIixcIlNSUF9NT1JFX1JFU1VMVFNfMFwiLFwiU1JQX01PUkVfUkVTVUxUU19GSUxURVJTXCJdLFwicHJvdmlkZXJVcGRhdGVUb2tlbnNcIjp7XCJTUlBfU0VBUkNIX0ZJTFRFUlwiOntcIkBjXCI6XCJjb20udHJpcGFkdmlzb3Iuc2VydmljZS5hcHMuYWRhcHRlcnMuc2VhcmNoLlNlYXJjaEZpbHRlclVwZGF0ZVRva2VuXCIsXCJmaWx0ZXJJZFwiOlwiQUNUSVZJVElFU1wiLFwiZGF0YVR5cGVzXCI6W1wiTE9DQVRJT05cIl0sXCJsb2NhdGlvblR5cGVzXCI6W1wiQVRUUkFDVElPTl9QUk9EVUNUXCJdLFwicmVxdWVzdFwiOntcInF1ZXJ5XCI6XCJjaGlhbmcgbWFpXCIsXCJsb2NhbGVcIjpcImVuX1VTXCIsXCJsaW1pdFwiOjEwLFwiZmlsdGVyc1wiOntcImRhdGFUeXBlc1wiOltcIkxPQ0FUSU9OXCJdLFwibG9jYXRpb25UeXBlc1wiOltcIkdFT1wiLFwiQUNDT01NT0RBVElPTlwiLFwiQVRUUkFDVElPTlwiLFwiQVRUUkFDVElPTl9QUk9EVUNUXCIsXCJFQVRFUllcIl19LFwiYWRkaXRpb25hbEZpZWxkc1wiOltcIlNOSVBQRVRcIl0sXCJvZmZzZXRcIjowLFwic2NvcGVcIjp7XCJsb2NhdGlvbklkXCI6bnVsbCxcImNlbnRlclwiOm51bGx9LFwibG9jYXRpb25JZHNUb0V4Y2x1ZGVcIjpbMjkzOTE3LDEyOTcxMjY1XSxcImNhdGVnb3J5RmlsdGVySWRzXCI6W1wiSE9URUxTXCIsXCJBVFRSQUNUSU9OU1wiLFwiREVTVElOQVRJT05TXCIsXCJSRVNUQVVSQU5UU1wiLFwiQUNUSVZJVElFU1wiLFwiRk9SVU1TXCJdfSxcImlzU2VsZWN0ZWRGaWx0ZXJcIjp0cnVlLFwic2VhcmNoU2Vzc2lvbklkXCI6XCI0NjRjYTFiMS03ZGQyLTQ5MGEtOWU4Ny00ZmJiYmE2OTgyYjRcIixcInNlYXJjaFJlZmluZW1lbnRJZFwiOlwiZDM5ZjNhYzQtZWQ4MC00ZDgzLTg4OWUtYzdiNzAyODdjYjIxXCJ9fSxcInBvbGxpbmdTZXF1ZW5jZU51bVwiOjB9In0.ZmVhY2QxZTctNzBjNS00ZmU4LTllNDItNGZlNDZlNTIwZDY5Lk1FWUNJUURTVFluQzJjTEpMUFU1SVB0bzlmUXFQY181WE9CYVByY1VqQUFTS1FrUVlnSWhBTjdqTTc5NDFwT2lxQzBEYlVzSE5zRTJjdGVSMnVMX0JCNFlFM3VzSWdfTA",
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View more items in this list",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_update"
+                }
+              },
+              {
+                "__typename": "AppPresentation_FilterChipCard",
+                "trackingKey": "{\"cfid\":\"FORUMS\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_5_5\",\"ctt\":\"FILTER\",\"sn\":\"Search\"}",
+                "trackingTitle": "FilterChipCard_FORUMS",
+                "stableDiffingType": "FilterChipCard_FORUMS",
+                "icon": null,
+                "selected": false,
+                "title": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Forums",
+                  "debugValueKey": null
+                },
+                "bubbleRating": null,
+                "updateLink": {
+                  "__typename": "AppPresentation_UpdateLink",
+                  "text": null,
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "nonCanonicalUrl": "/AppSearch-a_query.chiang+mai-a_force.false",
+                    "typedParams": {
+                      "__typename": "Routing_AppSearchParameters",
+                      "routingFilters": null,
+                      "force": false,
+                      "geoId": null,
+                      "query": "chiang mai",
+                      "referringViewUrl": null
+                    }
+                  },
+                  "routeKey": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppSearch",
+                    "url": null,
+                    "nonCanonicalUrl": null,
+                    "typedParams": null
+                  },
+                  "autoLoad": false,
+                  "updateToken": "eyJ2ZXIiOiJ2MiIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2IiwidmVyc2lvbiI6IjEifQ.eyJvYmplY3QiOiJ7XCJAY1wiOlwiLlVwZGF0ZVRva2VuXCIsXCJ0eXBlXCI6XCJGSUxURVJJTkdcIixcImNsdXN0ZXJJZHNcIjpbXCJTUlBfTU9SRV9SRVNVTFRTXzFcIixcIlNSUF9NT1JFX1JFU1VMVFNfMFwiLFwiU1JQX01PUkVfUkVTVUxUU19GSUxURVJTXCJdLFwicHJvdmlkZXJVcGRhdGVUb2tlbnNcIjp7XCJTUlBfU0VBUkNIX0ZJTFRFUlwiOntcIkBjXCI6XCJjb20udHJpcGFkdmlzb3Iuc2VydmljZS5hcHMuYWRhcHRlcnMuc2VhcmNoLlNlYXJjaEZpbHRlclVwZGF0ZVRva2VuXCIsXCJmaWx0ZXJJZFwiOlwiRk9SVU1TXCIsXCJkYXRhVHlwZXNcIjpbXCJGT1JVTVwiXSxcImxvY2F0aW9uVHlwZXNcIjpbXSxcInJlcXVlc3RcIjp7XCJxdWVyeVwiOlwiY2hpYW5nIG1haVwiLFwibG9jYWxlXCI6XCJlbl9VU1wiLFwibGltaXRcIjoxMCxcImZpbHRlcnNcIjp7XCJkYXRhVHlwZXNcIjpbXCJMT0NBVElPTlwiXSxcImxvY2F0aW9uVHlwZXNcIjpbXCJHRU9cIixcIkFDQ09NTU9EQVRJT05cIixcIkFUVFJBQ1RJT05cIixcIkFUVFJBQ1RJT05fUFJPRFVDVFwiLFwiRUFURVJZXCJdfSxcImFkZGl0aW9uYWxGaWVsZHNcIjpbXCJTTklQUEVUXCJdLFwib2Zmc2V0XCI6MCxcInNjb3BlXCI6e1wibG9jYXRpb25JZFwiOm51bGwsXCJjZW50ZXJcIjpudWxsfSxcImxvY2F0aW9uSWRzVG9FeGNsdWRlXCI6WzI5MzkxNywxMjk3MTI2NV0sXCJjYXRlZ29yeUZpbHRlcklkc1wiOltcIkhPVEVMU1wiLFwiQVRUUkFDVElPTlNcIixcIkRFU1RJTkFUSU9OU1wiLFwiUkVTVEFVUkFOVFNcIixcIkFDVElWSVRJRVNcIixcIkZPUlVNU1wiXX0sXCJpc1NlbGVjdGVkRmlsdGVyXCI6dHJ1ZSxcInNlYXJjaFNlc3Npb25JZFwiOlwiNDY0Y2ExYjEtN2RkMi00OTBhLTllODctNGZiYmJhNjk4MmI0XCIsXCJzZWFyY2hSZWZpbmVtZW50SWRcIjpcImIwZDFiYjJkLTdiY2QtNDAzYy04ZWM0LTUwYTgzODViNzEyOVwifX0sXCJwb2xsaW5nU2VxdWVuY2VOdW1cIjowfSJ9.ZmVhY2QxZTctNzBjNS00ZmU4LTllNDItNGZlNDZlNTIwZDY5Lk1FVUNJRmZkVVl3SnZZUGc5YTFDRFBYOGtMUFBHclVaSlNaZFRXSG5ONURwd1hTcUFpRUFueUJPbm9wS0w3ekN1MEI5VVNjSWJWSkc3RGRIYmg2d0VkaVpiQ0k4VG04",
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View more items in this list",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_update"
+                }
+              }
+            ]
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_hotel_816502_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"br\":4.5,\"rc\":2851,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_6\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":816502,\"pir\":37,\"mid\":380023937,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_hotel_816502_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"br\":4.5,\"rc\":2851,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_6\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":816502,\"pir\":37,\"mid\":380023937,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_hotel_816502",
+              "stableDiffingType": "SearchMoreResultsPOICard_hotel_816502",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Shangri-La Chiang Mai",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "secondaryInfo": null,
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 4.5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "2,851",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "HOTEL",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "We look forward to returning to Shangrila <span class='underline'>Chiang</span> <span class='underline'>Mai</span> some day."
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d816502-r893957214-Shangri_La_Chiang_Mai-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d816502-r893957214-Shangri_La_Chiang_Mai-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 816502,
+                    "review": 893957214
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=hotel&contentId=816502",
+                  "nonCanonicalUrl": "/AppDetail?contentType=hotel&contentId=816502",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "816502",
+                    "contentType": "hotel",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for Shangri-La Chiang Mai",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_attraction_product_23997354_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"br\":5.0,\"prc\":23.48,\"rc\":6039,\"cur\":\"USD\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_7\",\"ctt\":\"LOCATION\",\"pt\":\"attraction_product\",\"apc\":\"345511P1\",\"lid\":23997354,\"prcmd\":\"FROM_PER_ADULT\",\"mid\":590233098,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_attraction_product_23997354_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"br\":5.0,\"prc\":23.48,\"rc\":6039,\"cur\":\"USD\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_7\",\"ctt\":\"LOCATION\",\"pt\":\"attraction_product\",\"apc\":\"345511P1\",\"lid\":23997354,\"prcmd\":\"FROM_PER_ADULT\",\"mid\":590233098,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_attraction_product_23997354",
+              "stableDiffingType": "SearchMoreResultsPOICard_attraction_product_23997354",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Half Day Thai Cooking Course at Farm (Chiang Mai)",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Cooking Classes"
+              },
+              "secondaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "6,039",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "ACTIVITY",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "Thank you Lily for the best day in <span class='underline'>Chiang</span> <span class='underline'>Mai</span> !!!!!"
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d23997354-r898128692-Half_Day_Thai_Cooking_Course_at_Farm_Chiang_Mai-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d23997354-r898128692-Half_Day_Thai_Cooking_Course_at_Farm_Chiang_Mai-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 23997354,
+                    "review": 898128692
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=attraction_product&contentId=23997354",
+                  "nonCanonicalUrl": "/AppDetail?contentType=attraction_product&contentId=23997354",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "23997354",
+                    "contentType": "attraction_product",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for Half Day Thai Cooking Course at Farm (Chiang Mai)",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_hotel_1102025_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"br\":4.5,\"rc\":2140,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_8\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":1102025,\"pir\":19,\"mid\":680865412,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_hotel_1102025_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"br\":4.5,\"rc\":2140,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_8\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":1102025,\"pir\":19,\"mid\":680865412,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_hotel_1102025",
+              "stableDiffingType": "SearchMoreResultsPOICard_hotel_1102025",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "U Chiang Mai",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "secondaryInfo": null,
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 4.5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "2,140",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "HOTEL",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "boutique hotels in <span class='underline'>Chiang</span> <span class='underline'>Mai.</span>"
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d1102025-r890940671-U_Chiang_Mai-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d1102025-r890940671-U_Chiang_Mai-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 1102025,
+                    "review": 890940671
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=hotel&contentId=1102025",
+                  "nonCanonicalUrl": "/AppDetail?contentType=hotel&contentId=1102025",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "1102025",
+                    "contentType": "hotel",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for U Chiang Mai",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_attraction_product_11485481_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"prc\":37.9,\"cur\":\"USD\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_9\",\"ctt\":\"LOCATION\",\"pt\":\"attraction_product\",\"lid\":11485481,\"prcmd\":\"FROM_PER_ADULT\",\"mid\":442764605,\"br\":5.0,\"rc\":2469,\"apc\":\"35919P1\",\"iltso\":true,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_attraction_product_11485481_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"prc\":37.9,\"cur\":\"USD\",\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_9\",\"ctt\":\"LOCATION\",\"pt\":\"attraction_product\",\"lid\":11485481,\"prcmd\":\"FROM_PER_ADULT\",\"mid\":442764605,\"br\":5.0,\"rc\":2469,\"apc\":\"35919P1\",\"iltso\":true,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_attraction_product_11485481",
+              "stableDiffingType": "SearchMoreResultsPOICard_attraction_product_11485481",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Thai and Akha Cooking Class in Chiang Mai",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Cooking Classes"
+              },
+              "secondaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "2,469",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "ACTIVITY",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "If I’m ever back in <span class='underline'>Chiang</span> <span class='underline'>Mai</span>, I’ll certainly come back and do it all"
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d11485481-r888055935-Thai_and_Akha_Cooking_Class_in_Chiang_Mai-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d11485481-r888055935-Thai_and_Akha_Cooking_Class_in_Chiang_Mai-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 11485481,
+                    "review": 888055935
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=attraction_product&contentId=11485481",
+                  "nonCanonicalUrl": "/AppDetail?contentType=attraction_product&contentId=11485481",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "11485481",
+                    "contentType": "attraction_product",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for Thai and Akha Cooking Class in Chiang Mai",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_hotel_1147512_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"br\":4.5,\"rc\":4501,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_10\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":1147512,\"pir\":8,\"mid\":694896240,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_hotel_1147512_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"br\":4.5,\"rc\":4501,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_10\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":1147512,\"pir\":8,\"mid\":694896240,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_hotel_1147512",
+              "stableDiffingType": "SearchMoreResultsPOICard_hotel_1147512",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Le Méridien Chiang Mai",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "secondaryInfo": null,
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 4.5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "4,501",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "HOTEL",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "We can't wait to go back to <span class='underline'>Chiang</span> <span class='underline'>Mai.</span>"
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d1147512-r883957665-Le_Meridien_Chiang_Mai-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d1147512-r883957665-Le_Meridien_Chiang_Mai-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 1147512,
+                    "review": 883957665
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=hotel&contentId=1147512",
+                  "nonCanonicalUrl": "/AppDetail?contentType=hotel&contentId=1147512",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "1147512",
+                    "contentType": "hotel",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for Le Méridien Chiang Mai",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_hotel_7620257_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"br\":5.0,\"rc\":1303,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_11\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":7620257,\"pir\":2,\"mid\":691067145,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_hotel_7620257_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"br\":5.0,\"rc\":1303,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_11\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":7620257,\"pir\":2,\"mid\":691067145,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_hotel_7620257",
+              "stableDiffingType": "SearchMoreResultsPOICard_hotel_7620257",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "akyra Manor Chiang Mai",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "secondaryInfo": null,
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "1,303",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "HOTEL",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "I recently had the pleasure of staying at Akyra Manor in <span class='underline'>Chiang</span> <span class='underline'>Mai.</span>"
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d7620257-r879907334-Akyra_Manor_Chiang_Mai-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d7620257-r879907334-Akyra_Manor_Chiang_Mai-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 7620257,
+                    "review": 879907334
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=hotel&contentId=7620257",
+                  "nonCanonicalUrl": "/AppDetail?contentType=hotel&contentId=7620257",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "7620257",
+                    "contentType": "hotel",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for akyra Manor Chiang Mai",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_attraction_7115965_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"br\":4.5,\"rc\":4727,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_12\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":7115965,\"pir\":314,\"mid\":129483590,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_attraction_7115965_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"br\":4.5,\"rc\":4727,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_12\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":7115965,\"pir\":314,\"mid\":129483590,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_attraction_7115965",
+              "stableDiffingType": "SearchMoreResultsPOICard_attraction_7115965",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Elephant Jungle Sanctuary Chiang Mai",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "secondaryInfo": null,
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 4.5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "4,727",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "ATTRACTION",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "Best part of my <span class='underline'>Chiang</span> <span class='underline'>Mai</span> stay."
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d7115965-r884460212-Elephant_Jungle_Sanctuary_Chiang_Mai-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d7115965-r884460212-Elephant_Jungle_Sanctuary_Chiang_Mai-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 7115965,
+                    "review": 884460212
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=attraction&contentId=7115965",
+                  "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=7115965",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "7115965",
+                    "contentType": "attraction",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for Elephant Jungle Sanctuary Chiang Mai",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_hotel_539542_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"br\":3.5,\"rc\":2438,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_13\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":539542,\"pir\":171,\"mid\":670718278,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_hotel_539542_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"br\":3.5,\"rc\":2438,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_13\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":539542,\"pir\":171,\"mid\":670718278,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_hotel_539542",
+              "stableDiffingType": "SearchMoreResultsPOICard_hotel_539542",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Duangtawan Hotel Chiang Mai",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "secondaryInfo": null,
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 3.5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "2,438",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "HOTEL",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "The Duangatwan is in the heart of <span class='underline'>Chiang</span> <span class='underline'>Mai.</span>"
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d539542-r885869438-Duangtawan_Hotel_Chiang_Mai-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d539542-r885869438-Duangtawan_Hotel_Chiang_Mai-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 539542,
+                    "review": 885869438
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=hotel&contentId=539542",
+                  "nonCanonicalUrl": "/AppDetail?contentType=hotel&contentId=539542",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "539542",
+                    "contentType": "hotel",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for Duangtawan Hotel Chiang Mai",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_hotel_530557_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"br\":4.5,\"rc\":3446,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_14\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":530557,\"pir\":32,\"mid\":468100478,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_hotel_530557_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"br\":4.5,\"rc\":3446,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_14\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":530557,\"pir\":32,\"mid\":468100478,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_hotel_530557",
+              "stableDiffingType": "SearchMoreResultsPOICard_hotel_530557",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Anantara Chiang Mai Resort",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "secondaryInfo": null,
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 4.5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3,446",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "HOTEL",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "I'm back at this amazing <span class='underline'>Chiang</span> <span class='underline'>Mai</span> resort for the fourth time!"
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d530557-r891266934-Anantara_Chiang_Mai_Resort-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d530557-r891266934-Anantara_Chiang_Mai_Resort-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 530557,
+                    "review": 891266934
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=hotel&contentId=530557",
+                  "nonCanonicalUrl": "/AppDetail?contentType=hotel&contentId=530557",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "530557",
+                    "contentType": "hotel",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for Anantara Chiang Mai Resort",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SingleCard",
+            "trackingTitle": "SearchMoreResultsPOICard_hotel_543157_SRP_MORE_RESULTS_0",
+            "trackingKey": "{\"br\":4.5,\"rc\":2373,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_15\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":543157,\"pir\":61,\"mid\":112548356,\"sn\":\"Search\"}",
+            "stableDiffingType": "SearchMoreResultsPOICard_hotel_543157_SRP_MORE_RESULTS_0",
+            "appSearchCardContent": {
+              "__typename": "AppPresentation_NoImageStandardCard",
+              "trackingKey": "{\"br\":4.5,\"rc\":2373,\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_15\",\"ctt\":\"LOCATION\",\"pt\":\"hotel\",\"lid\":543157,\"pir\":61,\"mid\":112548356,\"sn\":\"Search\"}",
+              "trackingTitle": "SearchMoreResultsPOICard_hotel_543157",
+              "stableDiffingType": "SearchMoreResultsPOICard_hotel_543157",
+              "cardTitle": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "DusitD2 Chiang Mai",
+                "debugValueKey": null
+              },
+              "primaryInfo": {
+                "__typename": "AppPresentation_JoinedLocalizableObjects",
+                "text": "Chiang Mai, Thailand"
+              },
+              "secondaryInfo": null,
+              "bubbleRating": {
+                "__typename": "AppPresentation_BubbleRating",
+                "rating": 4.5,
+                "numberReviews": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "2,373",
+                  "debugValueKey": null
+                }
+              },
+              "labels": [
+                {
+                  "__typename": "AppPresentation_SecondaryLabel",
+                  "text": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "HOTEL",
+                    "debugValueKey": null
+                  }
+                }
+              ],
+              "descriptiveText": {
+                "__typename": "AppPresentation_HtmlLink",
+                "text": {
+                  "__typename": "AppPresentation_HtmlString",
+                  "text": "I recently stayed at dusit D2 <span class='underline'>Chiang</span> <span class='underline'>Mai</span> and will definitely choose to"
+                },
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "ShowUserReviews",
+                  "url": "/ShowUserReviews-g293917-d543157-r878853327-DusitD2_Chiang_Mai-Chiang_Mai.html",
+                  "nonCanonicalUrl": "/ShowUserReviews-g293917-d543157-r878853327-DusitD2_Chiang_Mai-Chiang_Mai.html",
+                  "typedParams": {
+                    "__typename": "Routing_ShowUserReviewsParameters",
+                    "detailId": 543157,
+                    "review": 878853327
+                  }
+                },
+                "trackingContext": "server_snippet"
+              },
+              "cardLink": {
+                "__typename": "AppPresentation_InternalLink",
+                "route": {
+                  "__typename": "Routing_Route",
+                  "fragment": null,
+                  "page": "AppDetail",
+                  "url": "/AppDetail?contentType=hotel&contentId=543157",
+                  "nonCanonicalUrl": "/AppDetail?contentType=hotel&contentId=543157",
+                  "typedParams": {
+                    "__typename": "Routing_AppDetailParameters",
+                    "contentId": "543157",
+                    "contentType": "hotel",
+                    "spAttributionToken": null,
+                    "wasPlusShown": null
+                  }
+                },
+                "webviewRoute": null,
+                "text": null,
+                "accessibilityString": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "View details for DusitD2 Chiang Mai",
+                  "debugValueKey": null
+                },
+                "trackingContext": "server_card"
+              }
+            },
+            "clusterId": "SRP_MORE_RESULTS_0"
+          },
+          {
+            "__typename": "AppPresentation_SecondaryButton",
+            "clusterId": "SRP_MORE_RESULTS_1",
+            "trackingKey": "{\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780_16\",\"bt\":\"NEXT_PAGE\",\"sn\":\"Search\"}",
+            "trackingTitle": "NextPageButtonSection_SRP_MORE_RESULTS_1",
+            "stableDiffingType": "NextPageButtonSection_SRP_MORE_RESULTS_1",
+            "link": {
+              "__typename": "AppPresentation_UpdateLink",
+              "text": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "Show more",
+                "debugValueKey": null
+              },
+              "route": {
+                "__typename": "Routing_Route",
+                "fragment": null,
+                "page": "AppSearch",
+                "url": "/AppSearch-a_query.chiang+mai-a_force.false",
+                "nonCanonicalUrl": "/AppSearch-a_query.chiang+mai-a_force.false",
+                "typedParams": {
+                  "__typename": "Routing_AppSearchParameters",
+                  "routingFilters": null,
+                  "force": false,
+                  "geoId": null,
+                  "query": "chiang mai",
+                  "referringViewUrl": null
+                }
+              },
+              "routeKey": {
+                "__typename": "Routing_Route",
+                "fragment": null,
+                "page": "AppSearch",
+                "url": null,
+                "nonCanonicalUrl": null,
+                "typedParams": null
+              },
+              "autoLoad": true,
+              "updateToken": "eyJ2ZXIiOiJ2MiIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2IiwidmVyc2lvbiI6IjEifQ.eyJvYmplY3QiOiJ7XCJAY1wiOlwiLlBhZ2luZ1VwZGF0ZVRva2VuXCIsXCJjbHVzdGVySWRzXCI6W1wiU1JQX01PUkVfUkVTVUxUU18xXCIsXCJTUlBfTU9SRV9SRVNVTFRTX0ZJTFRFUlNcIl0sXCJwcm92aWRlclVwZGF0ZVRva2Vuc1wiOntcIlNSUF9QQUdFXCI6e1wiQGNcIjpcImNvbS50cmlwYWR2aXNvci5zZXJ2aWNlLmFwcy5hZGFwdGVycy5zZWFyY2guU2VhcmNoUGFnZVVwZGF0ZVRva2VuXCIsXCJwYWdlSWRcIjoxLFwicmVxdWVzdFwiOntcInF1ZXJ5XCI6XCJjaGlhbmcgbWFpXCIsXCJsb2NhbGVcIjpcImVuX1VTXCIsXCJsaW1pdFwiOjEwLFwiZmlsdGVyc1wiOntcImRhdGFUeXBlc1wiOltcIkxPQ0FUSU9OXCJdLFwibG9jYXRpb25UeXBlc1wiOltcIkdFT1wiLFwiQUNDT01NT0RBVElPTlwiLFwiQVRUUkFDVElPTlwiLFwiQVRUUkFDVElPTl9QUk9EVUNUXCIsXCJFQVRFUllcIl19LFwiYWRkaXRpb25hbEZpZWxkc1wiOltcIlNOSVBQRVRcIl0sXCJvZmZzZXRcIjoxMCxcInNjb3BlXCI6e1wibG9jYXRpb25JZFwiOm51bGwsXCJjZW50ZXJcIjpudWxsfSxcImxvY2F0aW9uSWRzVG9FeGNsdWRlXCI6WzI5MzkxNywxMjk3MTI2NV0sXCJjYXRlZ29yeUZpbHRlcklkc1wiOltcIkhPVEVMU1wiLFwiQVRUUkFDVElPTlNcIixcIkRFU1RJTkFUSU9OU1wiLFwiUkVTVEFVUkFOVFNcIixcIkFDVElWSVRJRVNcIixcIkZPUlVNU1wiXX0sXCJzZWFyY2hTZXNzaW9uSWRcIjpcIjQ2NGNhMWIxLTdkZDItNDkwYS05ZTg3LTRmYmJiYTY5ODJiNFwiLFwic2VhcmNoUmVmaW5lbWVudElkXCI6XCIzYTJkMWQ0Yi1mZmQ1LTRjZmMtYTJhYi1kMzA1MjMyMGFmYzBcIixcInNlbGVjdGVkRmlsdGVySWRcIjpudWxsfX0sXCJwYWdlSW5kZXhcIjoxLFwidHlwZVwiOlwiUEFHSU5BVElPTlwiLFwicG9sbGluZ1NlcXVlbmNlTnVtXCI6MH0ifQ.ZmVhY2QxZTctNzBjNS00ZmU4LTllNDItNGZlNDZlNTIwZDY5Lk1FVUNJR01SRGtUb0pIWURIUU9pZW8tU1VMWWJ4Y2Y5a1REemxYY2s1RnQzRkk2ckFpRUFxdVkxLTk3d2k3VjZQWG8tWm1sNW51YzZzOGE3VHJMNDMyMmNybTh1NzNn",
+              "accessibilityString": {
+                "__typename": "AppPresentation_LocalizedString",
+                "string": "View more items in this list",
+                "debugValueKey": null
+              },
+              "trackingContext": "server_showMore"
+            },
+            "icon": null
+          }
+        ],
+        "statusV2": {
+          "__typename": "AppPresentation_SuccessQueryResponseStatus",
+          "partial": false,
+          "pollingStatus": null
+        },
+        "updatedClusterIds": [],
+        "trackingKey": "{\"ik\":\"1f97e0e8-fd13-4083-a96d-c0815a7ad780\",\"sn\":\"Search\"}"
+      }
+    }
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "ver",
+    "access-control-allow-methods": "GET, POST",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json",
+    "date": "Wed, 05 Jul 2023 21:35:05 GMT",
+    "server": "RapidAPI-1.2.8",
+    "x-rapidapi-region": "AWS - ap-southeast-1",
+    "x-rapidapi-version": "1.2.8",
+    "x-ratelimit-requests-limit": "500",
+    "x-ratelimit-requests-remaining": "499",
+    "x-ratelimit-requests-reset": "2678349"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": ["xhr", "http"],
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "X-RapidAPI-Key": "dd78df51b0mshd1a123cd230e778p1ecf5ajsn736fd1c2b1af",
+      "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com"
+    },
+    "method": "post",
+    "url": "https://travel-advisor.p.rapidapi.com/locations/v2/search",
+    "params": {
+      "currency": "USD",
+      "units": "km",
+      "lang": "en_US"
+    },
+    "data": "{\"query\":\"chiang mai\",\"updateToken\":\"\"}"
+  },
+  "request": {}
+}

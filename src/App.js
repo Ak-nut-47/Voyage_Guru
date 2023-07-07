@@ -1,23 +1,46 @@
-import logo from './logo.svg';
+
 import './App.css';
+import SimpleMap from './Components/SimpleMap';
+// import RapidApitest from './Components/RapidAPI';
+import GetRoutetest from './Components/GetRoutetest';
+import SearchBar from './Components/SearchBar';
+import LocationComponent from './Components/LocationComponent';
+import LocationPermissionModalWrapper from './Location/LocationPermissionModalWrapper';
+import Nearby from './Components/Nearby';
+import { Flex, Icon } from '@chakra-ui/react';
+import { useState } from 'react';
+import { MdLocationOn } from 'react-icons/md';
+
+
 
 function App() {
+  const [latitude, setLatitude] = useState("")
+  const [longitude, setLongitude] = useState("")
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Voyage Guru</h1>
+      <hr />
+
+      <hr />
+      <hr />
+      {/* <RapidApitest /> */}
+      {/* <GetRoutetest /> */}
+      <SearchBar />
+      {/* <LocationComponent /> */}
+      {/* <LocationPermissionModalWrapper /> */}
+      <Flex width={"100%"} justifyContent={"space-evenly"}>
+        <Nearby {...{ setLatitude, setLongitude }} />
+        {latitude && longitude && <SimpleMap {...{ latitude, longitude, setLatitude, setLongitude }} />}
+      </Flex>
+
+
+
+
+      <div>
+        {console.log(latitude)}
+        {console.log(longitude)}
+
+      </div>
     </div>
   );
 }
